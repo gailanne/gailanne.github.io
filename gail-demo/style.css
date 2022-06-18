@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2 {
+    margin: 2rem;
+    color: rgba(12, 3, 99, 0.808);
+
+}
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 65px;
+
+
+
+    color: rgba(12, 3, 99, 0.808);
+}
+
+
+html {
+    font-family: 'Taviraj';
+    color: rgb(22, 9, 16);
+
+
+}
+
+.profile {
+    margin: 1rem;
+    padding: 10px;
+    display: flex;
+    align:center;
+
+}
+
+.article__profile_image {
+    margin-top: .3rem;
+    height: auto;
+    max-width: 100%;
+}
+p{
+    display: flex;
+    justify-content: safe;
+   
+    max-width: 500px;
+    margin-left: 25px;
+}
+.article__profile_column{
+   padding-left: 10rem;
+    text-align: center;
+}
+
+a {
+    color: rgb(12, 3, 99);
+    margin-left: 3rem;
+    text-decoration: none;
+    padding: .25rem .5rem
+}
+
+.container {
+    background-color: antiquewhite;
+    margin-top:1rem auto;
+    margin-bottom: 0rem;
+    margin: 2px auto;
+    max-width: 90rem;
+    width: 90%;
+    -webkit-box-shadow: inset 2px 2px 101px 49px rgba(118, 98, 163, 0.6);
+    -moz-box-shadow: inset 2px 2px 101px 49px rgba(118, 98, 163, 0.6);
+    box-shadow: inset 2px 2px 101px 49px rgba(118, 98, 163, 0.6);
+
+}
+
+.header {
+    background-image:
+        url("assets/pixelated_light.jfif");
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav_list {
+    display: flex;
+}
+
+.header__nav_listItem {
+    list-style-type: none;
+}
+
+.header__nav_listItem:hover {
+
+    background-color: antiquewhite;
+    border: 1px solid rgba(78, 80, 80, 0.548);
+    transition: .5s;
+
+}
+.footer{
+    display: flex;
+     
+    justify-content: space-between;
+
+}
+
+.header__logo {
+    margin: left 12rem;
+
+}
+
+.projects__title {
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    border: 100px 
+
+}
+
+.projects__column_figure {
+    text-align: center;
+}
+
+.projects__column_button {
+    border-radius: 5px;
+    bottom: .5rem;
+    color: rgb(12, 3, 99);
+    margin: 0px;
+    opacity: 0;
+    position: relative;
+    transition: opacity.5s ease-out;
+    transition: 1s;
+}
+
+.projects__column_figure:hover .projects__column_button {
+    bottom: 2.5 rem;
+    opacity: .8;
+}
+
+.projects__column {
+    padding-left: .5rem;
+}
+
+.projects__column_title {
+    margin: 2rem;
+    text-align: center;
+}
+
+.projects__column_image {
+    text-align: center;
+    height: auto;
+    max-width: 100%;
+
+}
+
+* .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+* .fa:hover{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 15px;
+}
+
+.fa:hover {
+    opacity: .7;
+}
+
+*.bi-linkedin {
+    background: rgba(246, 246, 252, 0.808); margin 3px;
+} 
+
+* .bi-github {
+    background: rgb(1, 1, 3);
+    color: aliceblue;
+}
